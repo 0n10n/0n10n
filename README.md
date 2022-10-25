@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @0n10n
-- 👀 I’m new comer for github, trying to catch up with your guys
+- 👀 I’m a new comer for github, trying to catch up with your guys
 - 🌱 I’m currently learning Python & Docker
 - 📫 You can find me at: onion@163.com
 
