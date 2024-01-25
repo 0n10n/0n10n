@@ -1,18 +1,24 @@
 # 自己的Linux初装环境设置
 
-## Windows下的Putty设置
-TerminalType设置为linux：
+## Windows下的Putty sessions 文件设置
+这些文件默认在Putty安装目录下的`sessions`子目录。自己习惯需要更改的几个项目：
 ```
-TCPNoDelay\1\
-TCPKeepalives\0\
+......
 TerminalType\linux\
-TerminalSpeed\38400,38400\
+......
+Font\Consolas\
+FontHeight\12\
+......
+ANSIColour\1\
+Xterm256Colour\1\
+TrueColour\1\
+......
+WinTitle\%25%25h%20%25%25u\
 ```
 
-## 环境设置
+## Linux 默认环境设置
 ```
 cp setting.sh /etc/profile.d/
-
 ```
 
 ## vim 设置
