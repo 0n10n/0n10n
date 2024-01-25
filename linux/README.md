@@ -45,3 +45,9 @@ filetype plugin indent on
 if filereadable("/etc/vim/vimrc.local")
   endif
 ```
+
+## 更新github ip hosts表
+
+```
+0 1 * * * /root/update_hosts.sh >/dev/null 2>&1
+```
